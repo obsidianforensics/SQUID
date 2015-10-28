@@ -26,18 +26,11 @@ Teach SQUID about a new version of Chrome:
 
 | Option          | Description                                             |
 | --------------- | ------------------------------------------------------- |
-| -c or 
---compare | Compare to catalog of known databases. If -c points to a file, just that file will be compared. If -c points to a directory, the contents of that directory and all subdirectories will be scanned and compared. |
-| -o or 
---output  | File name of XLSX report (without extension) with match details.  If -o is not given, the file will be named "SQUID Matches (YYYY-MM-DDTHH-MM-SS)" |
-| -l or
- --learn   | Learn the structure of the indicated database(s) and add to catalog. If -l points to a file, just that single database will be added. If -l points to a directory, the contents of that directory will be scanned and added. Subdirectories will NOT be added. |
-| -n or 
---name    | Name of the database from --learn.  If -n is not given, the name of SQLite file from -l will be entered in the catalog.|
-| -f or 
---family  | Program Family (Web Browser, Chat, etc).  Use with --learn |
-| -p or 
---program | Program the database is associated with.  Use with --learn |
-| -v or
- --version | Version of the program the database is associated with.  Use with --learn |
+| -c or <BR>--compare | Compare to catalog of known databases. If -c points to a file, just that file will be compared. If -c points to a directory, the contents of that directory and all subdirectories will be scanned and compared. |
+| -o or <BR>--output  | File name of XLSX report (without extension) with match details.  If -o is not given, the file will be named "SQUID Matches (YYYY-MM-DDTHH-MM-SS)" |
+| -l or <BR>--learn   | Learn the structure of the indicated database(s) and add to catalog. If -l points to a file, just that single database will be added. If -l points to a directory, the contents of that directory will be scanned and added. Subdirectories will NOT be added. |
+| -n or <BR>--name    | Name of the database from --learn.  If -n is not given, the name of SQLite file from -l will be entered in the catalog.|
+| -f or <BR>--family  | Program Family (Web Browser, Chat, etc).  Use with --learn |
+| -p or <BR>--program | Program the database is associated with.  Use with --learn |
+| -v or <BR>--version | Version of the program the database is associated with.  Use with --learn |
 
