@@ -34,3 +34,6 @@ Teach SQUID about a new version of Chrome:
 | -p or --program | Program the database is associated with.  Use with --learn |
 | -v or --version | Version of the program the database is associated with.  Use with --learn |
 
+#### Requirements:
+
+XlsxWriter (pip install xlsxwriter)
