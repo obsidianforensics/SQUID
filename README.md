@@ -1,7 +1,7 @@
 SQUID (SQLite Unknown Identifier)
 =========
 
-"Fuzzy matching" for SQLite databases (presentation from OSDFCon about SQUID: http://4n6.link/squidslides)
+"Fuzzy matching" for SQLite databases (presentation from [OSDFCon about SQUID](https://www.osdfcon.org/presentations/2015/Ryan-Benson_OSDF-Squid.pdf))
 
 SQUID (SQLite Unknown Identifier) is a tool that compares unknown SQLite databases to a catalog of 'known' databases to find exact and near matches.  Even if a program updates and its database structure changes, there's a good chance SQUID will be able to identify it as related to that application.
 
